@@ -28,7 +28,7 @@
     \end{equation*}
     \item 写出Young不等式、H\"older不等式和Minkowski不等式。
     \item 设$n\in\positiveinteger$. 给出$\realset^n$中开集、闭集、导集、闭包、完全集、紧集、列紧集、连通集、道路连通集、凸集、区域的定义。
-    \item 设$n\in\positiveinteger$. 在$\realset^n$的所有子集中，是否存在既不是开集又不是闭集的集合？是否存在既开又闭的集合？有哪些既开又闭的集合？
+    \item 设$n\in\positiveinteger$. 在$\realset^n$的所有子集中，是否存在既不是开集又不是闭集的集合？是否存在既开又闭的集合？有哪些既开又闭的集合？这体现了$\realset^n$的什么性质？
     \item 设$n\in\positiveinteger$. $\realset^n$中的区域是否一定是道路连通的？
     \item 设$n,m\in\positiveinteger$. 问：$\realset^n\to\realset^m$的连续映射\\
     \begin{enumerate*}
@@ -53,13 +53,13 @@
         f(b)-f(a)=f'(\xi)(b-a).
     \end{equation*}
     \item （拟微分平均值定理）设$n,m\in\positiveinteger$, 凸区域$D\subseteq \realset^n$, 函数$f\colon D\to\realset^m$可微，则对任何两点$a,b\in D$, 在这两点的连线上存在一点$\xi$, 使得\begin{equation*}
-        \left\|f(b)-f(a)\right\|_2=\left\|f'(\xi)\right\|_F\left\|(b-a)\right\|_2,
+        \left\|f(b)-f(a)\right\|_2\leqslant\left\|f'(\xi)\right\|_F\left\|(b-a)\right\|_2,
     \end{equation*}
     其中$\|\cdot\|_2$表示列向量的2范数（也即由Euclid空间上的标准内积诱导的范数），$\|\cdot\|_F$表示矩阵的Frobenius范数。
     \item 叙述Newton-Leibniz公式、Green公式、Gauss公式和Stokes公式。对于有限区间上的Lebesgue积分，Newton-Leibniz公式何时成立？
     \item 尽可能多地说出数项级数判敛的方法。
     \item 尽可能多地说出积分与极限换序的条件。
-    \item 设有连续函数列$\{f_n\}_{n=1}^\infty\colon [a,b]\to\realset$. 试证明，如果$\sum_{n=1}^{\infty}f_n$在$[a,b)$内逐点收敛，但$\sum_{n=1}^{\infty}f_n(b)$发散，那么$\sum_{n=1}^{\infty}f_n$在$[a,b)$上不可能一致收敛。
+    \item 设有连续函数列$\{f_n\}_{n=1}^\infty\colon [a,b]\to\realset$. 试证明，如果$\{f_n\}_{n=1}^{\infty}$在$[a,b)$内逐点收敛，但$\{f_n(b)\}_{n=1}^\infty$发散，那么$\{f_n\}_{n=1}^{\infty}$在$[a,b)$上不可能一致收敛。
     \item 说说Fourier系数定义式的思想。
     \item 证明Riemann-Lebesgue引理：设$f$是有限闭区间$[a,b]$上的（常义）Riemann可积实值函数，那么\begin{equation*}
         \lim_{\lambda\to +\infty}\int_a^b f(x)\cos (\lambda x)\differential x=0.

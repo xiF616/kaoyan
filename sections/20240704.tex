@@ -18,7 +18,7 @@
     % \end{enumerate}
     \item Dirichlet函数和Riemann函数在$[0,1]$上的Riemann可积性如何，Lebesgue可积性又如何？可积的情况中，积分值分别是多少？
     \item 导出带积分余项的Taylor公式：设$n\in\naturalset$, $f\in C^{n+1}(a,b)$, $x_0\in (a,b)$, 则有\begin{equation*}
-        f(x)=\sum_{k=0}^{n}\frac{f^{(k)}\left(x_0\right)}{k!}\left(x-x_0\right)^k+\frac{1}{n!}\int_{x_0}^x (x-t)^n f^{n+1}(t)\differential t.
+        f(x)=\sum_{k=0}^{n}\frac{f^{(k)}\left(x_0\right)}{k!}\left(x-x_0\right)^k+\frac{1}{n!}\int_{x_0}^x (x-t)^n f^{(n+1)}(t)\differential t.
     \end{equation*}
     \item 对于$n\in \naturalset$计算积分\begin{equation*}
         \int_0^{\pi/2}(\sin x)^n\differential x.
@@ -60,7 +60,7 @@
     \item 尽可能多地说出数项级数判敛的方法。
     \item 尽可能多地说出判断函数项级数是否一致收敛的办法。
     \item 尽可能多地说出积分与极限换序的条件，产生的结果是等式或者不等式都可以。
-    \item 设有连续函数列$\{f_n\}_{n=1}^\infty\colon [a,b]\to\realset$. 试证明，如果$\{f_n\}_{n=1}^{\infty}$在$[a,b)$内逐点收敛，但$\{f_n(b)\}_{n=1}^\infty$发散，那么$\{f_n\}_{n=1}^{\infty}$在$[a,b)$上不可能一致收敛。
+    \item 设有函数列$\{f_n\}_{n=1}^\infty\subset C{[a,b],\realset}$. 试证明，如果$\{f_n\}_{n=1}^{\infty}$在$[a,b)$内逐点收敛，但$\{f_n(b)\}_{n=1}^\infty$发散，那么$\{f_n\}_{n=1}^{\infty}$在$[a,b)$上不可能一致收敛。
     \item 说说Fourier系数定义式的思想。
     \item 证明Riemann-Lebesgue引理（的一部分）：设$f$是有限闭区间$[a,b]$上的（常义）Riemann可积实值函数，那么\begin{equation*}
         \lim_{\lambda\to +\infty}\int_a^b f(x)\cos (\lambda x)\differential x=0.

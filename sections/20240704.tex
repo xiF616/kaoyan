@@ -10,12 +10,12 @@
     \end{align*}的大小关系。
     \item 有限区间上的一致连续函数是否一定有界？
     \item 设$-\infty<a<b<\infty$, $f\colon [a,b]\to\realset$为凸函数。试证明，如果存在$c\in(a,b)$使得$f(a)=f(c)=f(b)$, 那么$f$恒取常值。
-    \item 设$I$是一个开区间，$f$是$I$上的凸函数。试证明：
-    \begin{enumerate}
-        \item 在$I$上存在递增的左导函数$f'_-$和右导函数$f'_+$, 并且在$I$上逐点地有$f'_-\leqslant f'_+$.
-        \item 设$x\in I$. 若$f'_+$在$x$处左连续，或$f'_-$在$x$处右连续，则$f$在$x$处可导。
-        \item $f$在$I$上局部Lipschitz, 即在任何$I$的紧子集上Lipschitz.
-    \end{enumerate}
+    % \item 设$I$是一个开区间，$f$是$I$上的凸函数。试证明：
+    % \begin{enumerate}
+    %     \item $f$在$I$上存在递增的左导函数$f'_-$和右导函数$f'_+$, 并且在$I$上逐点地有$f'_-\leqslant f'_+$.
+    %     \item 设$x\in I$. 若$f'_+$在$x$处左连续，或$f'_-$在$x$处右连续，则$f$在$x$处可导。
+    %     \item $f$在$I$上局部Lipschitz, 即在$I$的任何紧子集上Lipschitz.
+    % \end{enumerate}
     \item Dirichlet函数和Riemann函数在$[0,1]$上的Riemann可积性如何，Lebesgue可积性又如何？可积的情况中，积分值分别是多少？
     \item 导出带积分余项的Taylor公式：设$n\in\naturalset$, $f\in C^{n+1}(a,b)$, $x_0\in (a,b)$, 则有\begin{equation*}
         f(x)=\sum_{k=0}^{n}\frac{f^{(k)}\left(x_0\right)}{k!}\left(x-x_0\right)^k+\frac{1}{n!}\int_{x_0}^x (x-t)^n f^{n+1}(t)\differential t.
@@ -58,10 +58,11 @@
     其中$\|\cdot\|_2$表示列向量的2范数（也即由Euclid空间上的标准内积诱导的范数），$\|\cdot\|_F$表示矩阵的Frobenius范数。
     \item 叙述Newton-Leibniz公式、Green公式、Gauss公式和Stokes公式。对于有限区间上的Lebesgue积分，Newton-Leibniz公式何时成立？
     \item 尽可能多地说出数项级数判敛的方法。
-    \item 尽可能多地说出积分与极限换序的条件。
+    \item 尽可能多地说出判断函数项级数是否一致收敛的办法。
+    \item 尽可能多地说出积分与极限换序的条件，产生的结果是等式或者不等式都可以。
     \item 设有连续函数列$\{f_n\}_{n=1}^\infty\colon [a,b]\to\realset$. 试证明，如果$\{f_n\}_{n=1}^{\infty}$在$[a,b)$内逐点收敛，但$\{f_n(b)\}_{n=1}^\infty$发散，那么$\{f_n\}_{n=1}^{\infty}$在$[a,b)$上不可能一致收敛。
     \item 说说Fourier系数定义式的思想。
-    \item 证明Riemann-Lebesgue引理：设$f$是有限闭区间$[a,b]$上的（常义）Riemann可积实值函数，那么\begin{equation*}
+    \item 证明Riemann-Lebesgue引理（的一部分）：设$f$是有限闭区间$[a,b]$上的（常义）Riemann可积实值函数，那么\begin{equation*}
         \lim_{\lambda\to +\infty}\int_a^b f(x)\cos (\lambda x)\differential x=0.
     \end{equation*}
 \end{enumerate}

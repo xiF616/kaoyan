@@ -22,14 +22,25 @@
     \begin{align*}
         &\left\{\Bigl(1+\frac{1}{n}\Bigr)^n\right\}_{n=1}^\infty, && \left\{\Bigl(1+\frac{1}{n}\Bigr)^{n+1}\right\}_{n=1}^\infty, && \left\{\sum_{k=0}^{n}\frac{1}{k!}\right\}_{n=0}^\infty.
     \end{align*}
+    当$n$取相同值时，上述三个数列相应项的大小关系如何？
     \item 证明实数列的Cauchy收敛准则。
     \item \begin{enumerate}
         \item 给出排列数和组合数的排列组合解释，并分别说明其计算公式。
-        \item 只用一个组合数来表达$\binom{n-1}{m-1}+\binom{n-1}{m}.$
+        % \item 只用一个组合数来表达$\binom{n-1}{m-1}+\binom{n-1}{m}.$
         \item 写出$(1+x)^n$的二项展开式，其中$x$取实值。
         \item 计算\begin{align*}
                 &\sum_{0\leqslant k\leqslant n} \binom{n}{k},&&\sum_{\begin{subarray}{c} 0\leqslant k\leqslant n\\2\mid k\end{subarray}} \binom{n}{k},&&\sum_{\begin{subarray}{c}0\leqslant k\leqslant n\\2\nmid k\end{subarray}} \binom{n}{k}.
             \end{align*}提示：可适当利用上一问的结果。
+        \item 将上述二项展开式按$x$的升幂排列，并将系数排成杨辉三角（Pascal三角），如图~\ref{图：杨辉三角}~所示。对于$n\in \positiveinteger$, 第$n+1$行为$(1+x)^{n-1}$的系数。
+        \begin{figure}
+            \centering
+            \includegraphics[scale=.5]{sections/杨辉三角.jpg}
+            \caption{杨辉三角（Pascal三角）}
+            \label{图：杨辉三角}
+        \end{figure}
+        杨辉三角是左右对称的，这体现了组合数的什么规律？
+        \item 分别观察杨辉三角中的红色、绿色、蓝色数字，它们体现了组合数的什么性质？
+        \item 对于固定的$n\in \positiveinteger$, 观察、猜想并证明有限长的组合数序列$\left\{\binom{k}{n}\right\}_{k=0}^n$的增减性规律。
     \end{enumerate}
     \item 写出立方差公式。
     \item \begin{enumerate}

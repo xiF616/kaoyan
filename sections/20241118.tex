@@ -1,0 +1,54 @@
+\section*{2024.11.18}
+\begin{enumerate}
+    \item 求和\begin{equation*}
+        \sum_{n=1}^{\infty}(-1)^{n+1}\frac{2n+1}{n(n+1)}\qquad\text{和}\qquad\sum_{n=1}^{\infty}\frac{2n+1}{(n^2+1)((n+1)^2+1)}.
+    \end{equation*}
+    \item 设$0<x<2\pi, \alpha>0$. 问级数\begin{equation*}
+        \sum_{n=1}^{\infty}\frac{\sin nx}{n^{\alpha}}\Bigl(1+\frac{1}{n}\Bigr)^n
+    \end{equation*}绝对收敛、条件收敛还是发散。%如果收敛，问它关于$x$和$\alpha$分别是否一致收敛？
+    \item 重排级数$\sum_{n=1}^{\infty}(-1)^{n+1}/n$, 使它发散。
+    \item 设$a_n\leqslant b_n\leqslant c_n(n=1,2,\dots)$, $\sum_{n=1}^{\infty}a_n$和$\sum_{n=1}^{\infty}c_n$同敛散，能否通过其敛散性断言$\sum_{n=1}^{\infty}b_n$的敛散性？
+    \item 证明级数的H\"older不等式和Minkowski不等式。（原题是指数为2的。）
+    \item 把$\ln x$展开成$(x-1)/(x+1)$的幂级数。
+    \item 以周期$2\pi$对$\sgn\circ\cos$进行Fourier展开。
+    \item 分别在$[-\pi,\pi]$和$[0,2\pi)$上对$x\mapsto x^2$进行Fourier展开，并求和$\sum_{n=1}^{\infty}n^{-2}$和$\sum_{n=1}^{\infty}n^{-4}$.
+    \item 计算\begin{equation*}
+        \lim_{x\to 0,y\to 0}(x+y)\sin ((x^2+y^2)^{-1})\qquad\text{和}\qquad\lim_{x\to 0,y\to 0}(\exp(x)-\exp(y))\csc(xy).
+    \end{equation*}
+    \item 求曲面$z=(x^2+y^2)/4$与平面$y=4$的交线在$x=2$处的切线与$Ox$轴的夹角。
+    \item 叙述$\realset^n$中区域的定义。设$D$是$\realset^2$上的区域。
+    \begin{enumerate}
+        \item 二元函数$f$满足$f'_1=0$在$D$上恒成立，问$f$的取值是否只由第二变元（自变元的第二个分量）决定。
+        \item 二元函数$f$的Jacobi矩阵在$D$上恒取0，问$f$在$D$上是否恒取常值。
+        \item 对以上两问，如果回答为“不能”，试附加一充分条件使之成立。
+    \end{enumerate}
+    \item 设$b>a>0$, 计算积分\begin{equation*}
+        \int_{0}^{1}\frac{x^b-x^a}{\ln x}\sin\Bigl(\ln \bigl(\frac{1}{x}\bigr)\Bigr)\differential x\qquad\text{和}\qquad\int_{0}^{1}\frac{x^b-x^a}{\ln x}\cos\Bigl(\ln \bigl(\frac{1}{x}\bigr)\Bigr)\differential x.
+    \end{equation*}
+    \item 设$n$取正整数，$a>0$, 计算\begin{equation*}
+        \int_{0}^{\infty}(x^2+a^2)^{-n}\differential x.
+    \end{equation*}
+    \item 计算\begin{equation*}
+        \int_{x^2+y^2=1} (x^2+2y^2)^{1/2}\differential s.
+    \end{equation*}
+    \item 计算\begin{equation*}
+        \int_L xyz\differential z,
+    \end{equation*}其中$L$是单位球面与$y=z$相交的园，其方向按曲线依次经过第1,2,7,8卦限。
+    \item 计算\begin{equation*}
+        \lim_{r\to +\infty}\int_{x^2+y^2=r^2}\frac{ydx-xdy}{(x^2+xy+y^2)^2}.
+    \end{equation*}
+    \item 设二元函数$u,v$在由封闭的光滑曲线$L$所围的区域$D$具有2阶连续偏导数，证明\begin{equation*}
+        \iint_{D}v\Delta u\differential \sigma=-\iint_D (\nabla u)\cdot(\nabla v)\differential\sigma+\oint_L v\frac{\partial u}{\partial \mathbf{n}}\differential s
+    \end{equation*}和\begin{equation*}
+        \iint_{D}(u\Delta v-v\Delta u)\differential \sigma=\oint_L \Bigl(u\frac{\partial v}{\partial \mathbf{n}}-v\frac{\partial u}{\partial \mathbf{n}}\Bigr)\differential s,
+    \end{equation*}其中$\mathbf{n}$是$L$的单位外法向量。
+    \item 设$\det \begin{pmatrix}
+        a_1&b_1&c_1\\ a_2&b_2&c_2 \\ a_3&b_3&c_3
+    \end{pmatrix}\neq 0$, $h_i>0(i=1,2,3)$, 求由平面$a_ix+b_iy+c_iz=\pm h_i(i=1,2,3)$所界平行六面体的体积。
+    % \item 求下列全微分的原函数：\begin{equation*}
+        % yz\differential x+xz\differential y+xy\differential z\qquad\text{和}\qquad(x^2-2yz)\differential x+(y^2-2xz)\differential y+(z^2-2xy)\differential z.
+    % \end{equation*}
+    \item （不是原题）设平面直角右手坐标系xOy上有一位于$(0,1)$处的电荷量为$q$的带正电的点电荷A，并在$([1,\infty)\times\{0\})\cup((-\infty,-1]\times\{0\})$上带正电，其他地方不带电，$(x,0)$处电荷的线密度等于$1/|x|(|x|\geqslant 1)$, 求A所受的Coulomb（库仑）力。\\
+    两个电荷（带电量分别设为$Q,q$）之间的Coulomb力总是沿二者的连线方向，遵循“同性相斥、异性相吸”的规律，大小等于$kQqr^{-2}$, 其中$k$是正常量，$r$为两电荷的距离。
+    \item 设球体$x^2+y^2+z^2\leqslant 2x$上各点的密度等于该点到坐标原点的距离，求该球体的质量、质心和形心。
+\end{enumerate}
